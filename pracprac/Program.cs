@@ -1,12 +1,12 @@
-﻿using System;
+﻿using url;
 
 namespace pracprac
 {
-    class Program
+    public class Program
     {
-        static void Main(string[] args)
+        public static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            var arr = urlify.replaceSpace(new char[] {'h','e','y',' ','t',' ','h','e','r','e','\0','\0','\0','\0','\0'},9);
         }
     }
 }
